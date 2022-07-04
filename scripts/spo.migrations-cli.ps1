@@ -47,8 +47,6 @@ param (
 $ErrorActionPreference = "Stop"
 #region script Scope
 $script:cliArtifacts = $null;
-$script:clientId = "813d0910-e2af-445c-9e51-a6ca3b82f295";
-$script:secret = "jh_7Q~cSJKRLQCufDE-sckLdspDsZ7fkoz3Vx";
 #endregion
 
 #region Command functions
