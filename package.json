@@ -1,0 +1,20 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "add-migration": "cd scripts && powershell ./spo.migrations-cli.ps1 -command add-migration",
+    "version-migrations": "cd scripts && powershell ./spo.migrations-cli.ps1 -v $true",
+    "help-migrations": "cd scripts && powershell Get-Help ./spo.migrations-cli.ps1 -Full",
+    "init-environment": "cd scripts && powershell ./spo.migrations-cli.ps1 -command init",
+    "apply-migrations": "cd scripts && powershell ./spo.migrations-cli.ps1 -command apply",
+    "rollback-migrations": "cd scripts && powershell ./spo.migrations-cli.ps1 -command rollback",
+    "list-migrations": "cd scripts && powershell ./spo.migrations-cli.ps1 -command list",
+    "seed": "cd scripts && powershell ./spo.migrations-cli.ps1 -command seed",
+    "gen-guid": "node guid-gen.js"
+  },
+  "devDependencies": {
+    "uuid": "^8.3.2"
+  }
+}

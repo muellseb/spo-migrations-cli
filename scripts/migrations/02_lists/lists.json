@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Tagebuecher",
+    "template": "GenericList",
+    "url": "lists/Diaries"
+  },
+  {
+    "title": "Personen",
+    "template": "GenericList",
+    "url": "lists/Persons"
+  },
+  {
+    "title": "Tagebuch-Eintraege",
+    "template": "GenericList",
+    "url": "lists/Journals"
+  },
+  {
+    "title": "Geschenke-Liste",
+    "template": "GenericList",
+    "url": "lists/Wishlist"
+  }
+]

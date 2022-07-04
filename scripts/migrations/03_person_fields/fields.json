@@ -1,0 +1,26 @@
+[
+  {
+    "displayName": "Name",
+    "internalName": "kddyTxtName",
+    "description": "Name of the person",
+    "groupName": "Kids Diary - Fields",
+    "type": "Text",
+    "id": "b840d54c-7f43-4015-a5bd-0b1048cd4479"
+  },
+  {
+    "internalName": "kddyDtiBirthday",
+    "xml": "<Field Type=\"DateTime\" DisplayName=\"Geburtsdatum\" Required=\"TRUE\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" Format=\"DateOnly\" Group=\"Kids Diary - Fields\" FriendlyDisplayFormat=\"Disabled\" ID=\"{2027f892-e6df-4ce7-b41d-767d5302130a}\" StaticName=\"kddyDtiBirthday\" Name=\"kddyDtiBirthday\"></Field>"
+  },
+  {
+    "internalName": "kddycalcAge",
+    "xml": "<Field Type=\"Calculated\" DisplayName=\"Age\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" Format=\"DateOnly\" Decimals=\"0\" LCID=\"1033\" ResultType=\"Text\" ReadOnly=\"TRUE\" Group=\"Kids Diary - Fields\" ID=\"{24675d6a-043a-42e5-b522-5601b6ed1f5c}\" StaticName=\"kddycalcAge\" Name=\"kddycalcAge\" Required=\"FALSE\" Percentage=\"FALSE\"><Formula>=IF(LEN(kddyDtiBirthday)&gt;0,DATEDIF(kddyDtiBirthday,TODAY(),\"Y\"),\"0\")</Formula><FieldRefs><FieldRef Name=\"kddyDtiBirthday\" ID=\"{2027f892-e6df-4ce7-b41d-767d5302130a}\" /><FieldRef Name=\"kddyDtiBirthday\" ID=\"{2027f892-e6df-4ce7-b41d-767d5302130a}\" /></FieldRefs></Field>"
+  },
+  {
+    "displayName": "Love Color",
+    "internalName": "kddyLoveColor",
+    "description": "Love color of the kid",
+    "groupName": "Kids Diary - Fields",
+    "type": "Text",
+    "id": "7c63a523-7d22-4fc3-92af-5d745eda58f7"
+  }
+]
