@@ -33,7 +33,7 @@ $ErrorActionPreference = "Stop"
 
 
 #region migrationscope 
-$script:migrationName = "03_person_fields";
+$script:migrationName = "03_test_fields";
 $script:migrationConfig = "$PSScriptRoot\fields.json";
 #endregion 
 
