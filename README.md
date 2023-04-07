@@ -2,7 +2,7 @@
 
 DRAFT
 
-This document is in draft. I will work on this project and plan to release the first candidate end of September.
+This document is in draft. I will work on this project from time to time. There is no concrete release plan for RC1.
 Till then, feel free to contatct me if you have something to discuss.
 
 muellseb@googlemail.com
